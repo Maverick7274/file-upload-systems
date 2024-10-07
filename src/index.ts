@@ -27,6 +27,6 @@ async function uploadFile(bucketName, file, fileOutputName) {
     }
 }
 (async()=>{
-    const ret = uploadFile(process.env.BUCKET_NAME,"test.jpg", "testImage.jpg")
+    const ret = uploadFile(process.env.BUCKET_NAME,"test.jpg", "testImage1.jpg")
     console.log(ret);
 })();
